@@ -1,4 +1,4 @@
 ## My programming notes and snippets.
 
-#### Folders
+### Folders
 - [Python](https://pages.github.com/)
