@@ -47,7 +47,7 @@ conda remove --name env_name --all
 conda deactivate
 ```
 
-##### 🔵  Export the environment to a file. 
+### 🔵  Export the environment to a file. 
 
 **Create Anaconda requirements file.**
 ```
