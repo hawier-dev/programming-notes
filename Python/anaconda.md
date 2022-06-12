@@ -1,6 +1,6 @@
 # Anaconda
 
-### 🔵  Environments info.
+### Environments info.
 
 **List environments.**
 ```
@@ -13,7 +13,7 @@ conda list
 ```
 
 
-### 🔵  Create new environment.
+### Create new environment.
 
 **Create new environment.**
 ```
@@ -35,7 +35,7 @@ conda create --name env_name --file requirements.txt
 conda env create --file environment.yml
 ```
 
-### 🔵  Remove environment.
+### Remove environment.
 
 **Remove the environment.**
 ```
@@ -47,7 +47,7 @@ conda remove --name env_name --all
 conda deactivate
 ```
 
-### 🔵  Export the environment to a file. 
+### Export the environment to a file. 
 
 **Create Anaconda requirements file.**
 ```

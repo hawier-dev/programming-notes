@@ -1,12 +1,12 @@
 # Load data from a text file.
 
-### 🔵  Using Numpy
+###  Using Numpy
 ```python
 import numpy
 file_data = numpy.loadtxt('file.txt', dtype=str, delimiter='seperator', comments='#')
 ```
 
-### 🔵  Using base Python
+### Using base Python
 ``` python
 data = []
 with open('file.txt', 'r') as file:
@@ -14,7 +14,7 @@ with open('file.txt', 'r') as file:
 		data.append(line.rstrip().split('seperator'))
 ```
 
-### 🔵  Using Pandas
+### Using Pandas
 ``` python
 import pandas
 file_data = pandas.read_csv('file.txt', sep='seperator')
@@ -22,15 +22,15 @@ file_data = pandas.read_csv('file.txt', sep='seperator')
 
 # Load data from json.
 
-### 🔵  Using json
+### Using json
 ``` python
 import json
-file = open('file.json')
-file_data = json.load(file)
-file.close()
+f = open('file.json')
+file_data = json.load(f)
+f.close()
 ```
 
-### 🔵  Using Pandas
+### Using Pandas
 ``` python
 import pandas
 file_data = pandas.read_json('file.json')
